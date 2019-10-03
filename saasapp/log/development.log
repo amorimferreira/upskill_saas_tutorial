@@ -2359,3 +2359,25 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 84ms (Views: 81.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/users/sign_up?plan=2" for 94.62.107.213 at 2019-10-03 12:37:54 +0000
+Cannot render console from 94.62.107.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"2"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/_pro_form.html.erb (30.7ms)
+  Rendered devise/shared/_links.html.erb (1.1ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (34.7ms)
+Completed 200 OK in 210ms (Views: 198.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/users/sign_up?plan=2" for 94.62.107.213 at 2019-10-03 12:37:54 +0000
+Cannot render console from 94.62.107.213! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Devise::RegistrationsController#new as HTML
+  Parameters: {"plan"=>"2"}
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/registrations/_pro_form.html.erb (5.8ms)
+  Rendered devise/shared/_links.html.erb (1.3ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
