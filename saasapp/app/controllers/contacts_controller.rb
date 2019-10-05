@@ -1,4 +1,4 @@
-class ContactsController < 
+class ContactsController < ApplicationController
   
   # GET request to /contact-us
   # Show new contact for
